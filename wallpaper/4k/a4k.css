@@ -85,6 +85,13 @@ a .btn:hover{
         display: block;
     }
 }
+@media screen and (min-width: 340px){
+    img{
+        width: 149px;
+        height: 200px;
+        display: block;
+    }
+}
 @media screen and (min-width: 350px){
     img{
         width: 154px;
@@ -118,8 +125,8 @@ a .btn:hover{
 }
 @media screen and (min-width: 400px){
     img{
-        width: 175px;
-        height: 220px;
+        width: 181px;
+        height: 250px;
         display: block;
     }
     .mainSection{
@@ -130,10 +137,34 @@ a .btn:hover{
         gap: .1rem;
     }
 }
+@media screen and (min-width: 420px){
+    img{
+        width: 189px;
+        height: 250px;
+        display: block;
+    }
+    .mainSection{
+        gap: .2rem;
+    }
+}
+@media screen and (min-width: 430px){
+    img{
+        width: 195px;
+        height: 240px;
+        display: block;
+    }
+}
+@media screen and (min-width: 440px){
+    img{
+        width: 199px;
+        height: 240px;
+        display: block;
+    }
+}
 @media screen and (min-width: 450px){
     img{
         width: 205px;
-        height: 390px;
+        height: 300px;
         display: block;
     }
     .mainSection{
@@ -185,7 +216,7 @@ a .btn:hover{
 @media screen and (min-width: 480px){
     img{
         width: 221px;
-        height: 390px;
+        height: 310px;
         display: block;
     }
     .mainSection{
@@ -209,7 +240,7 @@ a .btn:hover{
 @media screen and (min-width: 490px){
     img{
         width: 226px;
-        height: 390px;
+        height: 310px;
         display: block;
     }
     .mainSection{
@@ -499,6 +530,51 @@ footer a{
     border-radius: 10px;
     color: black;
     padding-left: 1rem;
+}
+@media screen and (min-width: 300px){
+    footer a{
+        font-size: 10px;
+        margin-top: 2rem;
+    }
+    footer div{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 301px){
+    footer a{
+        font-size: 15px;
+        margin-top: 2rem;
+    }
+    footer div{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 501px){
+    footer a{
+        font-size: 18px;
+        margin-top: 2rem;
+    }
+    footer div{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 601px){
+    footer a{
+        font-size: 20px;
+        margin-top: 2rem;
+    }
+    footer div{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 901px){
+    footer a{
+        font-size: 30px;
+        margin-top: 2rem;
+    }
+    footer div{
+        font-size: 25px;
+    }
 }
 footer a:hover{
     background-color: grey;

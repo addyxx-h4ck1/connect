@@ -46,9 +46,9 @@ const getData = fetch ("data.json")
 
         /*  event */
 
-        donloadfunction.addEventListener("click", (e) =>{
-            donloadfunction.textContent = 'Image Downloaded'
-           donloadfunction.style.backgroundColor = "grey"
+            donloadfunction.addEventListener("click", (e) =>{
+            donloadfunction.textContent = 'Downloaded'
+            donloadfunction.style.backgroundColor = "grey"
         })
     })
 
