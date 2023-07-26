@@ -8,7 +8,7 @@ h1{
     color: grey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-body{
+.body{
     background-color: black;
 }
 .mainSection{
@@ -16,7 +16,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: .5rem;
+    gap: .2rem;
 }
 img{
     width: 323px;
@@ -52,6 +52,7 @@ a .btn:hover{
         height: 400px;
         display: block;
     }
+    
 }
 @media screen and (min-width: 250px){
     img{
@@ -62,22 +63,63 @@ a .btn:hover{
 }
 @media screen and (min-width: 300px){
     img{
-        width: 300px;
-        height: 550px;
+        width: 129px;
+        height: 160px;
+        display: block;
+    }
+    a .btn{
+        font-size: 15px;
+        padding: .7rem;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h1 p{ 
+        font-size: 7px;
+    }
+}
+@media screen and (min-width: 330px){
+    img{
+        width: 144px;
+        height: 200px;
         display: block;
     }
 }
 @media screen and (min-width: 350px){
     img{
-        width: 350px;
-        height: 600px;
+        width: 154px;
+        height: 200px;
+        display: block;
+    }
+    a .btn{
+        font-size: 20px;
+        padding: 1rem;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h1 p{ 
+        font-size: 7px;
+    }
+}
+@media screen and (min-width: 370px){
+    img{
+        width: 164px;
+        height: 210px;
+        display: block;
+    }
+}
+@media screen and (min-width: 390px){
+    img{
+        width: 174px;
+        height: 210px;
         display: block;
     }
 }
 @media screen and (min-width: 400px){
     img{
-        width: 183px;
-        height: 350px;
+        width: 175px;
+        height: 220px;
         display: block;
     }
     .mainSection{
@@ -104,8 +146,8 @@ a .btn:hover{
 }
 @media screen and (min-width: 460px){
     img{
-        width: 210px;
-        height: 390px;
+        width: 205px;
+        height: 290px;
         display: block;
     }
     .mainSection{
@@ -115,10 +157,20 @@ a .btn:hover{
         justify-content: center;
         gap: .3rem;
     }
+    a .btn{
+        font-size: 25px;
+        padding: 1rem;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h1 p{ 
+        font-size: 7px;
+    }
 }
 @media screen and (min-width: 470px){
     img{
-        width: 216px;
+        width: 212px;
         height: 390px;
         display: block;
     }
@@ -132,7 +184,7 @@ a .btn:hover{
 }
 @media screen and (min-width: 480px){
     img{
-        width: 223px;
+        width: 221px;
         height: 390px;
         display: block;
     }
@@ -143,10 +195,20 @@ a .btn:hover{
         justify-content: center;
         gap: .1rem;
     }
+    a .btn{
+        font-size: 25px;
+        padding: .7rem;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h1 p{ 
+        font-size: 7px;
+    }
 }
 @media screen and (min-width: 490px){
     img{
-        width: 228px;
+        width: 226px;
         height: 390px;
         display: block;
     }
@@ -160,7 +222,7 @@ a .btn:hover{
 }
 @media screen and (min-width: 500px){
     img{
-        width: 233px;
+        width: 230px;
         height: 390px;
         display: block;
     }
@@ -170,6 +232,16 @@ a .btn:hover{
         flex-wrap: wrap;
         justify-content: center;
         gap: .1rem;
+    }
+    a .btn{
+        font-size: 20px;
+        padding: 1rem;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h1 p{ 
+        font-size: 7px;
     }
 }
 @media screen and (min-width: 550px){
@@ -188,8 +260,8 @@ a .btn:hover{
 }
 @media screen and (min-width: 600px){
     img{
-        width: 282px;
-        height: 460px;
+        width: 278px;
+        height: 420px;
         display: block;
     }
     .mainSection{
@@ -197,7 +269,17 @@ a .btn:hover{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: .3rem;
+        gap: .2rem;
+    }
+    a .btn{
+        font-size: 25px;
+        padding: 1rem;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h1 p{ 
+        font-size: 7px;
     }
 }
 @media screen and (min-width: 650px){
@@ -211,7 +293,7 @@ a .btn:hover{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: .5rem;
+        gap: .2rem;
     }
 }
 @media screen and (min-width: 700px){
@@ -245,7 +327,7 @@ a .btn:hover{
 @media screen and (min-width: 800px){
     img{
         width: 250px;
-        height: 430px;
+        height: 400px;
         display: block;
     }
     .mainSection{
@@ -253,7 +335,17 @@ a .btn:hover{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: .3rem;
+        gap: .2rem;
+    }
+     a .btn{
+        font-size: 20px;
+        padding: 1rem;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h1 p{ 
+        font-size: 7px;
     }
 }
 @media screen and (min-width: 850px){
@@ -311,19 +403,15 @@ a .btn:hover{
         justify-content: center;
         gap: .1rem;
     }
-}
-@media screen and (min-width: 1024px){
-    img{
-        width: 302px;
-        height: 450px;
-        display: block;
+    a .btn{
+        font-size: 30px;
+        padding: 1.4rem;
     }
-    .mainSection{
-        margin: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: .5rem;
+    h1{
+        font-size: 30px;
+    }
+    h1 p{ 
+        font-size: 15px;
     }
 }
 
@@ -353,6 +441,16 @@ a .btn:hover{
         flex-wrap: wrap;
         justify-content: center;
         gap: .5rem;
+    }
+    a .btn{
+        font-size: 40px;
+        padding: 1.4rem;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h1 p{ 
+        font-size: 20px;
     }
 }
 @media screen and (min-width: 1869px){
