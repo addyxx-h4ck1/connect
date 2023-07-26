@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+.mainSection{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+}
+img{
+    width: 323px;
+    height: 600px;
+    display: block;
+}
+ a .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+a .btn{
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem;
+}
+a .btn:hover{
+    background-color: gray;
+}
+@media screen and (min-width: 200px){
+    img{
+        width: 200px;
+        height: 400px;
+        display: block;
+    }
+}
+@media screen and (min-width: 250px){
+    img{
+        width: 250px;
+        height: 400px;
+        display: block;
+    }
+}
+@media screen and (min-width: 300px){
+    img{
+        width: 300px;
+        height: 550px;
+        display: block;
+    }
+}
+@media screen and (min-width: 350px){
+    img{
+        width: 350px;
+        height: 600px;
+        display: block;
+    }
+}
+@media screen and (min-width: 400px){
+    img{
+        width: 183px;
+        height: 350px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .1rem;
+    }
+}
+@media screen and (min-width: 450px){
+    img{
+        width: 205px;
+        height: 390px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .2rem;
+    }
+}
+@media screen and (min-width: 460px){
+    img{
+        width: 210px;
+        height: 390px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .3rem;
+    }
+}
+@media screen and (min-width: 470px){
+    img{
+        width: 216px;
+        height: 390px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .3rem;
+    }
+}
+@media screen and (min-width: 480px){
+    img{
+        width: 223px;
+        height: 390px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .1rem;
+    }
+}
+@media screen and (min-width: 490px){
+    img{
+        width: 228px;
+        height: 390px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .1rem;
+    }
+}
+@media screen and (min-width: 500px){
+    img{
+        width: 233px;
+        height: 390px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .1rem;
+    }
+}
+@media screen and (min-width: 550px){
+    img{
+        width: 257px;
+        height: 390px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .1rem;
+    }
+}
+@media screen and (min-width: 600px){
+    img{
+        width: 282px;
+        height: 460px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .3rem;
+    }
+}
+@media screen and (min-width: 650px){
+    img{
+        width: 300px;
+        height: 490px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+@media screen and (min-width: 700px){
+    img{
+        width: 310px;
+        height: 510px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+@media screen and (min-width: 750px){
+    img{
+        width: 335px;
+        height: 530px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+@media screen and (min-width: 800px){
+    img{
+        width: 250px;
+        height: 430px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .3rem;
+    }
+}
+@media screen and (min-width: 850px){
+    img{
+        width: 257px;
+        height: 430px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+@media screen and (min-width: 900px){
+    img{
+        width: 279px;
+        height: 470px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .3rem;
+    }
+}
+@media screen and (min-width: 950px){
+    img{
+        width: 295px;
+        height: 470px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .3rem;
+    }
+}
+@media screen and (min-width: 1000px){
+    img{
+        width: 238px;
+        height: 400px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .1rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    img{
+        width: 302px;
+        height: 450px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    img{
+        width: 310px;
+        height: 500px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+@media screen and (min-width: 1536px){
+    img{
+        width: 355px;
+        height: 580px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+@media screen and (min-width: 1869px){
+    img{
+        width: 425px;
+        height: 630px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+@media screen and (min-width: 1920px){
+    img{
+        width: 450px;
+        height: 700px;
+        display: block;
+    }
+    .mainSection{
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .5rem;
+    }
+}
+
+/* END OF MEDIA QUERIES */
+
+footer div{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 1rem;
+}
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: .9rem;
+    background-color: #04AA6D;
+    width: 40px;
+    border-radius: 10px;
+    color: black;
+    padding-left: 1rem;
+}
+footer a:hover{
+    background-color: grey;
+    color: black;
+}
+.footer{
+    background-color: rgb(34, 32, 32);
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 1.8rem;
+ }
